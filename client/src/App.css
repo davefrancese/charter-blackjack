@@ -1,0 +1,48 @@
+.App {
+  margin: 30px;
+}
+
+.container {
+  margin: 50px;
+  display: flex;
+  /* display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: auto; */
+}
+
+.bjcard {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+  height: 150px;
+  margin-left: 10px;
+}
+
+.♥,
+.♦ {
+  color: red;
+}
+
+.cardvalue,
+.cardsuit {
+  margin: 5px;
+}
+
+.cardvaluebtm {
+  float: right;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+
+.cardsuit {
+  font-size: 4rem;
+  text-align: center;
+  vh: 50%;
+  margin-top: -10px;
+}
+
+.controls {
+  margin-left: 5px;
+}
